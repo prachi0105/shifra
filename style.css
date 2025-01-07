@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Hind+Siliguri:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Protest+Guerrilla&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+
+#logo {
+    width: 20vw; /* Responsive width */
+    max-width: 150px; /* Set a maximum size for large screens */
+}
+
+h1 {
+    color: white;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 3em; /* Default font size for desktop */
+    text-align: center; /* Center text */
+    margin-bottom: 10px;
+}
+
+#name {
+    color: rgb(212, 43, 122);
+    font-size: 1.2em;
+}
+
+#va {
+    color: rgb(43, 206, 212);
+    font-size: 1.2em;
+}
+
+#voice {
+    width: 200px;
+    display: none;
+}
+
+#btn {
+    width: 30%;
+    background: linear-gradient(to right, rgb(21, 145, 207), rgb(201, 41, 116));
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 2px 2px 10px rgb(21, 145, 207), 2px 2px 10px rgb(201, 41, 116);
+    border: none;
+    transition: all 0.5s;
+    cursor: pointer;
+    max-width: 250px;
+    min-width: 200px;
+}
+
+#btn:hover {
+    box-shadow: 2px 2px 20px rgb(21, 145, 207), 2px 2px 20px rgb(201, 41, 116);
+    letter-spacing: 2px;
+}
+
+@media (max-width: 768px) {
+    /* For Tablets and Mobile Landscape */
+    #logo {
+        width: 30vw;
+    }
+
+    h1 {
+        font-size: 2.5em; /* Smaller font size for tablets */
+    }
+
+    #name, #va {
+        font-size: 1.5em;
+    }
+
+    #btn {
+        width: 50%;
+        font-size: 18px; /* Smaller button text */
+    }
+
+    #voice {
+        width: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* For Mobile */
+    body {
+        gap: 15px;
+    }
+
+    #logo {
+        width: 40vw;
+    }
+
+    h1 {
+        font-size: 2em; /* Even smaller font size for mobile */
+    }
+
+    #name, #va {
+        font-size: 1.2em;
+    }
+
+    #btn {
+        width: 70%;
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    #voice {
+        width: 120px;
+    }
+}
