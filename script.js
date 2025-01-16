@@ -4,11 +4,8 @@ let voice = document.querySelector('#voice');
 
 
 const contacts = {
-    "mummy": "+918358889498", 
-    "shakshi": "+919691233648",   
-    "komal": "+917999509700",
-    "ragani": "+917354573980",
-    "prachi jabalpur": "+917725876123"    
+    "mummy": "+9999999999999",
+    
 };
 
 let taskList = [];
