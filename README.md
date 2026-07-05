@@ -6,7 +6,7 @@ Shifra is a responsive, web-based virtual voice assistant built using HTML, CSS,
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-🔴_Click_Here-blue?style=for-the-badge)](https://prachi0105.github.io/shifra/)
 [![Source Code](https://img.shields.io/badge/Source_Code-💻_GitHub-black?style=for-the-badge)](https://github.com/prachi0105/shifra)
-[![LinkedIn Post](https://img.shields.io/badge/LinkedIn_Post-🚀_Watch_Video-0A66C2?style=for-the-badge&logo=linkedin)](YOUR_LINKEDIN_POST_URL_HERE)
+[![LinkedIn Post](https://img.shields.io/badge/LinkedIn_Post-🚀_Watch_Video-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/posts/prachi-gupta-2452562a3_html-css-javascript-activity-7286287519447486464-X0kM?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEkvhtUBitQQ3zqn6JjSpCjnTx8HqIYuICI)
 
 ---
 
